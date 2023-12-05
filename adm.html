@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study.io</title>
+    <!-- css file  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utlits.css">
+    <!-- font awesome cdn  -->
+    <script src="https://kit.fontawesome.com/c3171e834c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header section start  -->
+    <header>
+        <div class="head-section layout">
+            <div class="nav-bar flex space-between align-center">
+                <div class="logo uppercase f-w-700 letter-spacing2"><span>Admi</span>nistração</div>
+               
+            </div>
+            <!-- content  -->
+            <div class="content flex align-center">
+                <!-- left section  -->
+                <div class="left flex2">
+                    <h4 class="uppercase letter-spacing2">Seu resultado foi: <span>Adminstração</span> </h4>
+                    <h2 class="my-t-10 uppercase letter-spacing2 f-w-700">Adminstração</h2>
+                    <p class="my-t-10">Administração é a tomada de decisão sobre recursos disponíveis, trabalhando com e através de pessoas para atingir objetivos, é o gerenciamento de uma organização, levando em conta as informações fornecidas por outros profissionais e também pensando previamente as conseqüências de suas decisões.<span> </span> </p>
+                    <button class="btn btn2 my-t-20">Voltar</button>
+                </div>
+
+                <!-- right section  -->
+                <div class="right flex3">
+                    <img src="asset/" alt="">
+                    <div class="color-box"></div>    
+                </div>
+            </div>
+        </div>
+    </header>        
+   
+
+    <!-- footer section  -->
+    <footer>
+        <div class="footer-sec layout text-center">
+            <p>Copyright &copy; VSClass Online | All Right Reserved</p>
+        </div>
+    </footer>
+    <style>
+        .color-box{
+    background-image:none ;
+    width: 560px;
+    height: 480px;
+    border: 5px solid red;
+    transform: rotate(48deg);
+    position: absolute;
+    top: 120px;
+    right: 10px;
+    overflow: hidden;
+    border-radius: 80px;
+}
+.color-box::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url(assets/img/pexels-pixabay-265087.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 141%;
+    height: 141%;
+    left: -20.5%;
+    top: -20.5%;
+    transform: rotate(-48deg);
+}
+    </style>
+</body>   
+    </html> 
+

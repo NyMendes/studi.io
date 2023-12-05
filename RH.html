@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study.io</title>
+    <!-- css file  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utlits.css">
+    <!-- font awesome cdn  -->
+    <script src="https://kit.fontawesome.com/c3171e834c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header section start  -->
+    <header>
+        <div class="head-section layout">
+            <div class="nav-bar flex space-between align-center">
+                <div class="logo uppercase f-w-700 letter-spacing2"><span>Recursos </span>Humanos</div>
+               
+                
+                
+                <input type="checkbox" name="checkbox" id="click">
+                <label for="click" class="menu-btn" id="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div>
+            <!-- content  -->
+            <div class="content flex align-center">
+                <!-- left section  -->
+                <div class="left flex2">
+                    <h4 class="uppercase letter-spacing2">Seu resultado foi:<span>RH</span></h4>
+                    <h2 class="my-t-10 uppercase letter-spacing2 f-w-700">RH</h2>
+                    <p class="my-t-10">O departamento de RH, também conhecido como Recursos Humanos, é um dos principais setores de uma empresa e realiza o gerenciamento assertivo e humanizado dos colaboradores, tendo um papel altamente analítico e estratégico. <span></span> </p>
+                    <button class="btn btn2 my-t-20">Voltar</button>
+                </div>
+
+                <!-- right section  -->
+                <div class="right flex3">
+                    <img src="asset/" alt="">
+                    <div class="color-box"></div>    
+                </div>
+            </div>
+        </div>
+    </header>        
+   
+    <!-- footer section  -->
+    <footer>
+        <div class="footer-sec layout text-center">
+            <p>Copyright &copy; VSClass Online | All Right Reserved</p>
+        </div>
+    </footer>
+    <style>
+    .color-box{
+        background-image:none ;
+        width: 560px;
+        height: 480px;
+        border: 5px solid red;
+        transform: rotate(48deg);
+        position: absolute;
+        top: 120px;
+        right: 10px;
+        overflow: hidden;
+        border-radius: 80px;
+    }
+    .color-box::before{
+        content: "";
+        display: block;
+        position: absolute;
+        background-image: url(https://images.pexels.com/photos/17759535/pexels-photo-17759535/free-photo-of-a-woman-sitting-at-a-table-with-a-laptop.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-size: cover;
+        background-position: center;
+        width: 141%;
+        height: 141%;
+        left: -20.5%;
+        top: -20.5%;
+        transform: rotate(-48deg);
+    }
+    </style>
+</body>   
+    </html> 
+

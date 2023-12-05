@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website Design</title>
+    <!-- css file  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utlits.css">
+    <!-- font awesome cdn  -->
+    <script src="https://kit.fontawesome.com/c3171e834c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header section start  -->
+    <header>
+        <div class="head-section layout">
+            <div class="nav-bar flex space-between align-center">
+                <div class="logo uppercase f-w-700 letter-spacing2"><span>Mark</span>eting</div>
+                <div class="nav-links">
+                   
+                    <ul class="flex f-w-600">
+                        
+                    </ul>
+                </div>
+                
+                
+                </label>
+            </div>
+            <!-- content  -->
+            <div class="content flex align-center">
+                <!-- left section  -->
+                <div class="left flex2">
+                    <h4 class="uppercase letter-spacing2">Seu Resultado Foi: <span>Marketing</span> </h4>
+                    <h2 class="my-t-10 uppercase letter-spacing2 f-w-700">Marketing</h2>
+                    <p class="my-t-10">Uma das principais características que todo estudante/profissional do Direito precisa ter: uma obsessão por se manter atualizado. Na carreira jurídica é preciso lidar diretamente com mudanças de normas, leis, acontecimentos, entre outras questões de mesma natureza. <span></span> </p>
+                    <button class="btn btn2 my-t-20">Voltar</button>
+                </div>
+
+                <!-- right section  -->
+                <div class="right flex3">
+                    <div class="color-box"></div>    
+                </div>
+            </div>
+        </div>
+    </header>        
+    <!-- about section start  -->
+    <footer></footer>
+    <style>
+        .color-box{
+    background-image:none ;
+    width: 560px;
+    height: 480px;
+    border: 5px solid red;
+    transform: rotate(48deg);
+    position: absolute;
+    top: 120px;
+    right: 10px;
+    overflow: hidden;
+    border-radius: 80px;
+}
+.color-box::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url(https://images.pexels.com/photos/326576/pexels-photo-326576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    width: 141%;
+    height: 141%;
+    left: -20.5%;
+    top: -20.5%;
+    transform: rotate(-48deg);
+}
+    </style>
